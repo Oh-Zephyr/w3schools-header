@@ -21,7 +21,7 @@ header .head{
     .dsi{
         display: visible;
     }
-    .close{
+    .dropdown{
         display: none !important;
     }
 }
@@ -29,10 +29,10 @@ header .head{
     .dsi{
         display: none;
     }
-    dropdown{
+    .dropdown{
         display: inherit !important;
     }
-    .osp{
+    .unhide{
         display: none !important;
     }
 }
@@ -40,13 +40,13 @@ header .head{
     .dsi{
         display: none;
     }
-    .dddsi{
-        display:none;
+    .hide{
+        display: none;
     }
     .dropdown{
         display: inherit !important;
     }
-    .osp{
+    .unhide{
         display: inherit !important;
     }
 }
